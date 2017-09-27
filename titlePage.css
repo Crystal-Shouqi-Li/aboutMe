@@ -1,0 +1,163 @@
+h1{
+	font-family:'Poiret One', cursive;
+	text-align: center;
+	font-size:100px;
+	line-height:0px;
+}
+
+.coverImages{
+	position:relative;
+}
+
+.imageTexts{
+	position:absolute;
+	text-align:center;
+	top:180px;
+	width:100%;
+}
+
+#firstLink{
+	color:#dbe9ff;
+	font-family:'Shadows Into Light Two', cursive;
+	font-size:80px;
+	top:180px;
+	float:right;
+	margin-right:10%;
+}
+
+#secondLink{
+	color:maroon;
+	font-family:'Cabin Sketch', cursive;
+	font-size:80px;
+	top:180px;
+}
+
+#thirdLink{
+	position:absolute;
+	text-align:center;
+	width:100%;
+	color:#C390D4;
+	font-family:'The Girl Next Door', cursive;
+	font-size:80px;
+	top:-50px;
+}
+
+h3:hover{
+	color:black;
+}
+
+#quotes{
+	text-align:center;
+	line-height:40px;
+	font-family: 'Allura', cursive;
+	font-size:20px;
+}
+
+#firstLinkHeading{
+	color:#dbe9ff;
+	font-family:'Shadows Into Light Two', cursive;
+	font-size:100px;
+	top:180px;
+	text-align:center;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+ #secondLinkHeading{
+ 	color:maroon;
+	font-family:'Cabin Sketch', cursive;
+	font-size:100px;
+	top:180px;
+ }
+
+#thirdLinkHeading{
+	text-align:center;
+	width:100%;
+	color:#C390D4;
+	font-family:'The Girl Next Door', cursive;
+	font-size:90px;
+	top:50px;
+}
+
+ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+li{
+	display:inline;
+}
+
+.menu{
+	margin: 0 auto;
+	width:350px;
+
+}
+
+.noUnderline{
+	text-decoration:none;
+	color:black;
+	padding:0px 15px;
+
+}
+
+#aboutMeSelector{
+	color:#dbe9ff;
+	font-family:'Shadows Into Light Two', cursive;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-size:20px;
+}
+
+#resumeSelector{
+	color:maroon;
+	font-family:'Cabin Sketch', cursive;
+	font-size:20px;
+}
+
+#projectsSelector{
+	color:#C390D4;
+	font-family:'The Girl Next Door', cursive;
+	font-size:20px;
+}
+
+a.selectedAM:hover{
+	color:#dbe9ff;
+}
+
+a.selectedR:hover{
+	color:maroon;
+}
+
+a.selectedP:hover{
+	color:#C390D4;
+}
+
+.resumeMenu{
+	padding:0px 14px;
+}
+
+.projectsMenu{
+	position:relative;
+	padding:0px 15px;
+}
+
+#resume{
+	height:600px;
+	width:600px;
+	margin:0 auto;
+	
+}
+
+#instagramPhoto{
+	height:300px;
+	width:300px;
+	position:relative;
+	float:left;
+
+}
+
+#spotify{
+	height:500px;
+	width:300px;
+	position:relative;
+	float:right;
+}
+
