@@ -1,9 +1,23 @@
 <!DOCTYPE html>
-<title>About Me</title>
 <head>
-<link rel="stylesheet" href="titlePage.css">
-<link href="https://fonts.googleapis.com/css?family=Poiret+One|Shadows+Into+Light+Two|Cabin+Sketch|The+Girl+Next+Door|Allura" rel="stylesheet">
+<meta charset="UTF-8">
+<title>About Me</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=The+Girl+Next+Door" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Allura" rel="stylesheet">
 <script src="titlePage.js"></script>
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
 </head>
 <body>
 
@@ -11,24 +25,66 @@
 
 <div class="menu">
 <ul>
-<li><a href="titlePage.html" class="noUnderline selectedAM">Main</a></li>
+<li><a href="lab1.html" class="noUnderline selectedAM aboutMeMenu">Main</a></li>
 <li><a href="aboutMe.html" class="noUnderline" id="aboutMeSelector">About Me</a></li>
-<li><a href="resume.html" class="noUnderline selectedAM">Resume</a></li>
-<li><a href="projects.html" class="noUnderline selectedAM">Projects</a></li>
+<li><a href="resume.html" class="noUnderline selectedAM aboutMeMenu">Resume</a></li>
+<li><a href="projects.html" class="noUnderline selectedAM aboutMeMenu">Projects</a></li>
 </ul>
 </div>
-<p> Hi! My name is Crystal Shouqi Li and it's great to meet you! I am a Freshman at Georgia Tech right now.</p>
-<div id="instagramPhoto">
+
+<select id="myDropdown" onchange="myFunction()">
+  <option value="Git">Github</option>
+  <option value="Spot">Spotify</option>
+  <option value="Yelp">Yelp</option>
+  <option value="Inst">Instagram</option>
+</select>
+<div class="centerI">
+<div>
+<img alt="" src="http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons/high-resolution-dark-blue-denim-jeans-icons-arrows/008772-high-resolution-dark-blue-denim-jeans-icon-arrows-hand-clear-pointer-up.png" style="width:100px;height:100px">
+</div>
+</div>
+<p class="aboutMeParagraphs center">Use me to find out more about me and what I am into</p>
+<p class="center" id="aboutMeFont"> Hi! My name is Crystal Shouqi Li and it's great to meet you! I am a Freshman at Georgia Tech right now. </p>
+
+
+<div id="yelp">
+<p class="aboutMeParagraphs">I am obsessed with sweets, if you click on the picture below you'll be taken to my yelp account</p>
+<a href="https://crystalLi.yelp.com" ><img src="http://susiecakes.com/app/uploads/2016/01/SC-menu-mini-cupcakes.jpg" alt="" class="aboutMePictures"></a>
+</div>
+
+<div id="github" class="centerI">
+<div>
+<a href="https://github.com/Crystal-Shouqi-Li" class="aboutMePictures githubLink">Link to my github</a></div>
+<img class="center" src="https://assets-cdn.github.com/images/modules/open_graph/github-octocat.png" alt="">
+</div>
+
+<div id="insta" class="aboutMePictures">
+<p class="aboutMeParagraphs">I use my Finstagram to look up good food but mainly to fiend about Desserts</p>
 <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/BXMiKgkgMl4/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">Queen of cream ga blueberry cobbler</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by crystal li (@crystalli3439) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2017-07-31T03:27:44+00:00">Jul 30, 2017 at 8:27pm PDT</time></p></div></blockquote>
 <script async defer src="https://platform.instagram.com/en_US/embeds.js"></script>
 </div>
 
-<p>I use my Finstagram to look up good food but mainly to fiend about Desserts</p>
+<div id="spotify" class="aboutMePictures">
+<p class="aboutMeParagraphs"> Spotify always knows how to bring me back from the brink of passing out from exhaustion </p>
+<iframe src="https://open.spotify.com/embed/user/crystal_li1999/playlist/5IwrBITHBPBRCdbPi9F092" width="300" height="380"></iframe>
+</div>
 
-<p> Spotify always knows how to bring me back from the brink of passing out from exhaustiion </p>
-
-<div id="spotify">
-<iframe src="https://open.spotify.com/embed/user/crystal_li1999/playlist/5IwrBITHBPBRCdbPi9F092" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+<div class="container2">
+  <h2 class="center">If you want to contact me or provide me with any feedback please fill out this form</h2>
+  <form>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Message:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter message">
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox"> I am not a robot</label>
+    </div>
+    <button type="submit" class="btn btn-default" onclick="buttonClicked()">Submit</button>
+  </form>
 </div>
 
 
