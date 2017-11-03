@@ -1,8 +1,14 @@
 <!DOCTYPE html>
-<title>Resume</title>
 <head>
-<link rel="stylesheet" href="titlePage.css">
-<link href="https://fonts.googleapis.com/css?family=Poiret+One|Shadows+Into+Light+Two|Cabin+Sketch|The+Girl+Next+Door|Allura" rel="stylesheet">
+<title>Resume</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=The+Girl+Next+Door" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Allura" rel="stylesheet">
 <script src="titlePage.js"></script>
 </head>
 <body>
@@ -10,21 +16,73 @@
 
 <div class="menu">
 <ul>
-<li><a href="titlePage.html" class="noUnderline selectedR resumeMenu">Main</a></li>
-<li><a href="aboutMe.html" class="noUnderline selectedR resumeMenu">About Me</a></li>
-<li><a href="resume.html" class="noUnderline resumeMenu" id="resumeSelector">Resume</a></li>
-<li><a href="projects.html" class="noUnderline selectedR resumeMenu">Projects</a></li>
+<li><a href="lab1.html" class="noUnderline selectedR resumeMenu menuSize" >Main</a></li>
+<li><a href="aboutMe.html" class="noUnderline selectedR resumeMenu menuSize">About Me</a></li>
+<li><a href="resume.html" class="noUnderline menuSize" id="resumeSelector">Resume</a></li>
+<li><a href="projects.html" class="noUnderline selectedR resumeMenu menuSize">Projects</a></li>
 </ul>
 </div>
 
 <div id="resume">
-<object data="Resume.pdf" type="application/pdf" width="100%" height="100%">
-<iframe src="Resume.pdf" width="100%" height="100%" style="border: none;">
-This browser does not support PDFs. Please download the PDF to view it: <a href="Resume.pdf">Download PDF</a>
-</iframe>
+<object data="Resume.pdf" type="application/pdf" class="object">
+<div class="centerR"><iframe src="Resume.pdf">
+</iframe></div>
+<a href="Resume.pdf">Download PDF</a>
 </object>
-</iframe>
+
 </div>
+
+<div class="timeline">
+<div class="container left">
+    <div class="content" onclick="changeDiv1()">
+      <h2>2017-2021</h2>
+      <div id="TH1" style="display:none;">
+      <p>Attending Georgia Tech as a Computer Science major.</p>
+    </div>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content" onclick="changeDiv2()">
+      <h2>2017 Fall</h2>
+      <div id="TH2" style="display:none;">
+      <p>Attended HackGT and team won best IOT Qualcomm hack</p>
+      </div>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content" onclick="changeDiv3()">
+      <h2>2017 summer</h2>
+      <div id="TH3" style="display:none;">
+      <p>TA'd at Accenture for Girls Who Code</p>
+    </div>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content" onclick="changeDiv4()">
+      <h2>2016</h2>
+      <div id="TH4" style="display:none;">
+      <p>Summer Research program at University of Southern Florida</p>
+      </div>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content" onclick="changeDiv5()">
+      <h2>2014</h2>
+      <div id="TH5" style="display:none;">
+      <p>Attended a GWC summer immersion program at Moody's where I was introduced to many CS topics.</p>
+    </div>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content" onclick="changeDiv6()">
+      <h2>2013-2017</h2>
+      <div id="TH6" style="display:none;" >
+      <p>Attended C. Leon King High School and Graduated with an IB diploma and 6.7 cummulative GPA</p>
+    </div>
+    </div>
+  </div>
+</div>
+
 
 </body>
 </html>
