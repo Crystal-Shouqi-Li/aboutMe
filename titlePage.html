@@ -4,7 +4,20 @@
 <link rel="stylesheet" href="titlePage.css">
 <link href="https://fonts.googleapis.com/css?family=Poiret+One|Shadows+Into+Light+Two|Cabin+Sketch|The+Girl+Next+Door|Allura" rel="stylesheet">
 <script src="titlePage.js"></script>
-
+<link rel="manifest" href="/manifest.json" />
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+  var OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "3605792a-7040-4657-b3d4-66fd32f0fb45",
+      autoRegister: false,
+      notifyButton: {
+        enable: true,
+      },
+    });
+  });
+</script>
 </head>
 <body>
 <div>
